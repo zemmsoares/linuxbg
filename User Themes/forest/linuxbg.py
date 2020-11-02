@@ -1,4 +1,4 @@
-#import required
+# IMPORTS 
 
 import platform, distro
 from PIL import Image, ImageDraw, ImageFont
@@ -11,8 +11,9 @@ system = platform.system().upper()
 image = Image.open('background.png')
 draw = ImageDraw.Draw(image)
 
-font = ImageFont.truetype('HanaMinA.ttf', size=20)
-font2 = ImageFont.truetype('DejaVuSerifCondensed.ttf', size=55)
+# FONTS 
+font = ImageFont.truetype('HanaMinA.ttf', size=20) # ttf-hanazono
+font2 = ImageFont.truetype('DejaVuSerifCondensed.ttf', size=55) # ttf-dejavu
 
 kernel = kernelpre + kernelversion
 distro = node +' '+ system
