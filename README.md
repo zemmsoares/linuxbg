@@ -1,5 +1,6 @@
 # linuxbg
 
+Dynamic background with "system" information
 
 ## Dependencies
 
